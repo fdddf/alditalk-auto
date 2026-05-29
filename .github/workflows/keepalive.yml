@@ -11,6 +11,7 @@ permissions:
 jobs:
   heartbeat:
     runs-on: ubuntu-latest
+    environment: 177
     steps:
       - uses: actions/checkout@v4
 
